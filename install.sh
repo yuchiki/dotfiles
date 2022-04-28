@@ -10,7 +10,7 @@ fi
 
 cp -n .oh-my-zsh/themes/mytheme.zsh-theme $HOME/.oh-my-zsh/themes/mytheme.zsh-theme
 
-if [ "$REMOTE_CONTAINER" = TRUE ]; then # only in .devcontianer
+if [ "$REMOTE_CONTAINERS" = true ]; then # only in .devcontianer
     chsh -s /bin/zsh
 else
     cp -n .gitconfig $HOME/.gitconfig
