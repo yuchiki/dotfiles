@@ -5,7 +5,7 @@ fi
 
 
 mkdir -p $HOME/.oh-my-zsh/themes
-cp -n .oh-my-zsh/themes/mytheme.zsh-theme $HOME/.oh-my-zsh/themes/mytheme.zsh-theme
+cp -n mytheme.zsh-theme $HOME/.oh-my-zsh/themes/mytheme.zsh-theme
 
 if [ "$REMOTE_CONTAINERS" = true ]; then # only in .devcontianer
     chsh -s /bin/zsh
